@@ -28,8 +28,8 @@ Each day leading up to the event, a new prototype or mini-project will be added 
 
 | # | Project Name | Description | Technologies | Status |
 |---|--------------|-------------|--------------|--------|
-| 1 | **StudyBoost** | Anti-stress & productivity app for students with Zen & Insanity modes | HTML, CSS, JS | ✅ Complete |
-| 2 | **EcoScan** | Lightweight waste sorting app using barcode & image detection | Python, OpenCV, Streamlit | ✅ Complete |
+| 1 | **Plug-And-Play Chat-GPT API** | a clay-ish AI that uses ChatGPT to do anything | HTML, Python | ✅ Complete |
+| 2 | **LearningType website** | Lightweight website to help you figure out what is your learning type | HTML , CSS , Javascript, Nix | ✅ Complete |
 | 3 | — | *(To be added)* | — | 🔜 Upcoming |
 | 4 | — | *(To be added)* | — | 🔜 Upcoming |
 | 5 | — | *(To be added)* | — | 🔜 Upcoming |
