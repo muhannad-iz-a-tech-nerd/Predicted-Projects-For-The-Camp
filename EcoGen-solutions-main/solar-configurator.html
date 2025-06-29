@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Configurator</title>
+    <link rel="stylesheet" href="solar-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Solar Configurator</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <form id="quotation-form">
+            <label for="region">Region in Maharashtra:</label>
+            <select id="region" name="region" required>
+                <option value="">Select region...</option>
+                <option value="western">Western</option>
+                <option value="central">Central</option>
+                <option value="vidarbha">Vidarbha</option>
+            </select><br><br>
+
+            <label for="area">Area (in square meters):</label>
+            <input type="number" id="area" name="area" min="0" required><br><br>
+
+            <label for="power-needed">Power Needed (in kW):</label>
+            <input type="number" id="power-needed" name="power-needed" min="0" required><br><br>
+
+            <button type="submit">Get Quotation</button>
+        </form>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoGen Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript file -->
+    <script src="solar.js"></script>
+</body>
+</html>

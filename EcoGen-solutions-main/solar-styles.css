@@ -1,0 +1,56 @@
+/* Styles for the solar configurator */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd700;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; /* Center align the content */
+}
+
+form {
+    margin-top: 50px; /* Add some space between header and form */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

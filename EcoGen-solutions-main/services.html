@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="services-styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h2>EcoGen Solutions</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="ai-recommended.html">AI Recommended Solution 💫</a></li> <!-- New option -->
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Choose Your Service</h2>
+        <div class="services">
+            <div class="service solar" onclick="redirectToConfigurator('solar')">
+                <br>
+                <br>
+                <img src="../Assets/sun.png" alt="Solar Energy">
+                <h3>Helio</h3>
+                
+            </div>
+            <div class="service hydro" onclick="redirectToConfigurator('hydro')">
+                <img src="../Assets/river.png" alt="Hydroelectric Power">
+                <h3>Hydro</h3>
+                
+            </div>
+            <div class="service wind" onclick="redirectToConfigurator('wind')">
+                <br>
+                <br>
+                <img src="../Assets/wind.png" alt="Wind Energy">
+                <h3>Anemo</h3>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoGen Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="services.js"></script>
+
+</body>
+</html>

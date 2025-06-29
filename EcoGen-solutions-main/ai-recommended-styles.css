@@ -1,0 +1,131 @@
+/* ai-recommended-styles.css */
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Set background color for the entire page */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+nav ul {
+    float: right;
+    list-style: none; /* Remove default list styles */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* AI Recommended Solution Styles */
+#ai-recommended {
+    background: url('Assets/evergreenblur.jpeg') center/cover; /* Add background image */
+    padding: 50px 0; /* Add padding to make content more visible */
+    color: #fff; /* Set text color to white */
+    text-align: center;
+}
+
+#ai-recommended .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#ai-recommended form {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#ai-recommended form .form-group {
+    margin-bottom: 20px;
+}
+
+#ai-recommended form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* Set label text color to white */
+}
+
+#ai-recommended form input[type="number"],
+#ai-recommended form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set background color to white */
+    color: #333; /* Set input text color to black */
+    margin-bottom: 10px;
+}
+
+#ai-recommended form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set background color to white */
+    color: #333; /* Set input text color to black */
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+#ai-recommended form .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#ai-recommended form .btn:hover {
+    background: #555;
+}
+
+#recommendation-result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

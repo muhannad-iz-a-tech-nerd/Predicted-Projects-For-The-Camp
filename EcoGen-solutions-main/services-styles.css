@@ -1,0 +1,111 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some space between menu items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Center text */
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.service {
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.2);
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    margin: 0;
+}
+
+.service p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.service.solar {
+    background-color: #ffd700;
+}
+
+.service.hydro {
+    background-color: 	#87CEEB;
+}
+
+.service.wind {
+    background-color: #4edc9c;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

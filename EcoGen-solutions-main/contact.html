@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EcoGen Solutions</title>
+    <link rel="stylesheet" href="contact-styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>EcoGen Solutions</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="ai-recommended.html">AI Recommended Solution 💫</a></li> <!-- New option -->
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST"> <!-- Replace "submit_form.php" with the path to your form processing script -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-number">Contact Number:</label>
+                    <input type="tel" id="contact-number" name="contact-number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="query">Your Query:</label>
+                    <textarea id="query" name="query" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoGen Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
