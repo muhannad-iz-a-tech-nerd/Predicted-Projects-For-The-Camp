@@ -10,8 +10,8 @@ Each day leading up to the event, a new prototype or mini-project will be added 
 
 ## 📅 Hackathon Countdown:
 **Days remaining:** 9  
-**Goal:** 10 versatile projects  
-**Frequency:** 1 new project per day
+**Goal:** 4 versatile projects  
+
 
 ---
 
@@ -30,14 +30,8 @@ Each day leading up to the event, a new prototype or mini-project will be added 
 |---|--------------|-------------|--------------|--------|
 | 1 | **Plug-And-Play Chat-GPT API** | a clay-ish AI that uses ChatGPT to do anything | HTML, Python | ✅ Complete |
 | 2 | **LearningType website** | Lightweight website to help you figure out what is your learning type | HTML , CSS , Javascript, Nix, PHP | ✅ Complete |
-| 3 | — | *(To be added)* | — | 🔜 Upcoming |
-| 4 | — | *(To be added)* | — | 🔜 Upcoming |
-| 5 | — | *(To be added)* | — | 🔜 Upcoming |
-| 6 | — | *(To be added)* | — | 🔜 Upcoming |
-| 7 | — | *(To be added)* | — | 🔜 Upcoming |
-| 8 | — | *(To be added)* | — | 🔜 Upcoming |
-| 9 | — | *(To be added)* | — | 🔜 Upcoming |
-|10 | — | *(To be added)* | — | 🔜 Upcoming |
+| 3 | **Pairing website** | A web app that helps people find study partners for virtual pair programming and collaboration | Firebase, Javascript , HTML| ✅ Complete  |
+| 4 | **Eco-Friendly solutions** | A website the suggests Eco-friendly solutions for your stuff | HTML , Javascript, CSS (Laravel Edition) | ✅ Complete |
 
 ---
 
